@@ -141,7 +141,7 @@ h1{
 
 }
 .flx{
-    margin-top: 10vh;
+    margin-top: 5vh;
     
     display: flex;
     flex-direction: column;
@@ -149,8 +149,8 @@ h1{
     align-items: center;
 }
 
-textarea{
-    height: 30vh;
+/* textarea{
+    height: 30vh; 
     margin: 10px;
     width: 100%;
-}
+} */
