@@ -26,9 +26,9 @@ STATIC_DIR = os.path.join(BASE_DIR, 'static')
 SECRET_KEY = 'django-insecure-95(n$-l+plp(g*0d5qg)m)evyr(du93*zuapeafrljq4pk8kq!'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', 'new-django-portfolio.herokuapp.com']
 
 
 # Application definition
