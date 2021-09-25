@@ -16,7 +16,6 @@ from os import path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-STATIC_DIR = os.path.join(BASE_DIR, 'static')
 
 
 # Quick-start development settings - unsuitable for production
@@ -29,6 +28,7 @@ SECRET_KEY = 'django-insecure-95(n$-l+plp(g*0d5qg)m)evyr(du93*zuapeafrljq4pk8kq!
 DEBUG = False
 
 ALLOWED_HOSTS = ['127.0.0.1', 'new-django-portfolio.herokuapp.com']
+# '127.0.0.1', 'new-django-portfolio.herokuapp.com'
 
 
 # Application definition
@@ -125,7 +125,7 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 STATICFILES_DIRS = [
-    STATIC_DIR,
+    os.path.join(BASE_DIR, 'static')
 ]
 
 
